@@ -1,0 +1,15 @@
+---
+application:
+  name: "tgvc-userbot"
+  project: "Music"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "Idkn"
+  version: "4.4"
+routers:
+- name: "main-tgvc-userbot"
+  routes:
+  - application_name: "tgvc-userbot"
+    paths:
+    - "/*"
